@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Website | About</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background:#000080;
+            text-align: center;
+        }
+
+        header {
+            background: #;
+            color: white;
+            padding: 20px;
+        }
+
+        nav {
+            background:#000000 ;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 5px 10px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 15px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 20px;
+            margin: 15px 0;
+        }
+
+        audio, video {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 15px;
+        }
+
+        .about-box {
+            width: 95%;
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background:#2c3e50;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        a.external-link {
+            color:#000080;
+            text-decoration: underline;
+        }
+        
+         (max-width: 480px) {
+            nav a {
+                display:block;
+                margin:8px 0;
+            }
+
+            header h1 {
+                font-size: 22px;
+            }
+
+            .about-box {
+                padding:15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>About Us</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+    <div class="about-box">
+        <h2>Who Am I?</h2>
+        <p>Hello! my name is Verlyn Velasquez. I'm currently learning web development, focusing on HTML, CSS, and basic multimedia integration. This page is designed to give visitors insight into my hobbies, interests, and favorite activities.</p>
+
+        <h3>My hobby volleyball</h3>
+        <p>I love volleyball because I'm bud bud I like sports.</p>
+        <img src="ball.jpeg" alt="Gaming">
+
+        <h3>About This Page (Audio Explanation)</h3>
+        <audio controls>
+            <source src="buddy.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Favorite Sci-Fi Movie</h3>
+        <video controls>
+            <source src="dance.mp4" type="video/mp4">
+        </video>
+
+        <h3>Research Tool Topics</h3>
+        <p>
+            Learn about history, science, people, places, and more at 
+            <a href="https://www.onlinegdb.com/" target="_blank" class="external-link">Wikipedia</a>.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Thank you for visiting our page. © 2026 My Website</p>
+</footer>
+
+</body>
+</html>
